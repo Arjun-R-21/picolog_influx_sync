@@ -7,11 +7,11 @@ import time
 # ---------- Configuration ---------- 
 # picolog:
 #  base_url: "https://api.picolog.app/v1/"
-#  api_key: "kQRwCX2OBNPTjTb6qyS-bSvPhcKs7GIPebT4Fr61u871c"
+#  api_key: ""
 #  device_id: "9c6adba8-2880-45ad-b62b-5f3ee028969b"
 #influxdb:
 #  url: "https://us-east-1-1.aws.cloud2.influxdata.com"
-#  token: "sNd_jKNKcjGXPhUmwC9tJlyGrA3y__I3FN5SSaHnFyLJMh7g5UeJFnaSaR-ltm8XUjBdxMWc4H_uaQX8Crv2Yg=="
+#  token: ""
 #  org: "project"
 #  bucket: "picolog"
 # 
@@ -20,11 +20,11 @@ import time
 # PicoLog Cloud API settings (modify with actual values)
 PICOLOG_API_BASE = "https://api.picolog.app/v1"
 DEVICE_ID = "9c6adba8-2880-45ad-b62b-5f3ee028969b"
-API_KEY = "kQRwCX2OBNPTjTb6qyS-bSvPhcKs7GIPebT4Fr61u871c"  # If needed
+API_KEY = ""  # If needed
 
 # InfluxDB settings
 INFLUXDB_URL = "https://us-east-1-1.aws.cloud2.influxdata.com"
-INFLUXDB_TOKEN = "sNd_jKNKcjGXPhUmwC9tJlyGrA3y__I3FN5SSaHnFyLJMh7g5UeJFnaSaR-ltm8XUjBdxMWc4H_uaQX8Crv2Yg=="
+INFLUXDB_TOKEN = ""
 INFLUXDB_ORG = "project"
 INFLUXDB_BUCKET = "picolog"
 
